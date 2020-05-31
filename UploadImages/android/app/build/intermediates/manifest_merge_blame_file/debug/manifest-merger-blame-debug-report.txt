@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uploadimages"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:6:5-64
+12-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:7:5-79
+13-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:8:5-80
+14-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:4:5-67
+15-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.33.1] /Users/sathish/.gradle/caches/transforms-2/files-2.1/bdc8d3c5310e7b7092628c3cc44feec2/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.33.1] /Users/sathish/.gradle/caches/transforms-2/files-2.1/bdc8d3c5310e7b7092628c3cc44feec2/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+17
+18    <application
+18-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:6:5-25:19
+19        android:name="com.uploadimages.MainApplication"
+19-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /Users/sathish/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/debug/AndroidManifest.xml:10:18-53
+28        <activity
+28-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:13:7-23:18
+29            android:name="com.uploadimages.MainActivity"
+29-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:label="@string/app_name"
+31-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:18:9-51
+34            <intent-filter>
+34-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:19:9-22:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:20:13-65
+35-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:20:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:21:13-73
+37-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:21:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:24:7-84
+40-->/Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/android/app/src/main/AndroidManifest.xml:24:17-81
+41
+42        <provider
+42-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+43            android:name="androidx.core.content.FileProvider"
+43-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-62
+44            android:authorities="com.uploadimages.provider"
+44-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-60
+45            android:exported="false"
+45-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+46            android:grantUriPermissions="true" >
+46-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-47
+47            <meta-data
+47-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+49                android:resource="@xml/provider_paths" />
+49-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+50        </provider>
+51
+52        <activity
+52-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-25:72
+53            android:name="com.yalantis.ucrop.UCropActivity"
+53-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-60
+54            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+54-->[:react-native-image-crop-picker] /Users/sathish/Documents/niveditha/niveditha/UploadImages/UploadImages/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-69
+55    </application>
+56
+57</manifest>
